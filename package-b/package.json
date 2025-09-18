@@ -1,0 +1,13 @@
+{
+  "name": "package-b",
+  "version": "1.0.0",
+  "main": "index.cjs",
+  "type": "commonjs",
+  "devDependencies": {},
+  "scripts": {
+    "test": "node index.cjs"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
