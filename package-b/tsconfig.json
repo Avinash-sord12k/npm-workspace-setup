@@ -1,0 +1,19 @@
+/* try2/package-b/tsconfig.json */
+{
+  "compilerOptions": {
+    "composite": true,
+    "target": "esnext",
+    "module": "nodenext", // change to nodenext for ESM
+    "types": ["node"],
+    "declaration": true,
+    // "declarationMap": true,
+    // "sourceMap": true,
+    "outDir": "dist",
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "skipLibCheck": true
+  },
+  "include": ["./*"],
+  "exclude": ["node_modules", "dist"]
+}
