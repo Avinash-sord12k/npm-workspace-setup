@@ -27,5 +27,13 @@ npm run build
 npm run start --workspace=package-a
 ```
 
+to run a specific package:
+```bash
+cd package-a
+tsc -p tsconfig.json -w
+```
+### tip: wathc the chagnes in build files on changing the tsconfig.json
+### it explains which attributes are effecting which part of the build
+
 # References
 [ChatGPT Discussion (Deep Dive into Setup)](https://chatgpt.com/share/68ccae85-ae28-800b-a9ec-085102a680e5)
